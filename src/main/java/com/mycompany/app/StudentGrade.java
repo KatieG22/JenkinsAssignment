@@ -1,5 +1,6 @@
-public class StudentGrade {
+package com.mycompany.app;
 
+public class StudentGrade {
     public char getGrade(int studentMarks) {
 		char result = ' ';
 		if(studentMarks <= 0 || studentMarks >100) {
@@ -26,5 +27,5 @@ public class StudentGrade {
 		return result;
 	}
 
-    
+
 }
