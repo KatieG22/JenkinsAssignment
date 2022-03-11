@@ -7,7 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class StudentGradeTest{
-    
+
     StudentGrade studentGrade;
 
 	@Before
@@ -48,4 +48,6 @@ public class StudentGradeTest{
 	public void testGradeF() {
 		assertEquals('F',studentGrade.getGrade(20));
 	}
+    
+   
 }
